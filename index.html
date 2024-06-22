@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Line</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th></th>
+				<th></th>
+				<th></th>
+                <th>SGX</th>
+                <th>BURSA</th>
+                <th>HKG</th>
+            </tr>
+            <tr>
+                <td>08:30 AM</td>
+				<td>-</td>
+				<td>08:58/08:59 AM</td>
+                <td>Pre Open</td>
+                <td rowspan="2">Pre Open</td>
+				<td rowspan="2">Pre Open</td>
+            </tr>
+			
+            <tr>
+                <td>08:58/08:59 AM</td>
+				<td>-</td>
+				<td>09:00 AM</td>
+                <td>Non Cancel</td>
+            </tr>
+			
+            <tr>
+                <td>09:00 AM</td>
+				<td>-</td>
+				<td>12:00 PM</td>
+                <td>Trading</td>
+                <td>Pre Open</td>
+				<td >Pre Open</td>
+            </tr>
+			
+            <tr>
+                <td>12:00 PM</td>
+				<td>-</td>
+				<td>12:58/12:59 PM</td>
+                <td>Trading</td>
+                <td>Pre Open</td>
+				<td >Pre Open</td>
+            </tr>
+        </table>
+        <div class="draggable-line"></div>
+        <div class="draggable-handle"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
